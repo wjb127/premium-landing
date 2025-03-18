@@ -391,7 +391,7 @@ export default function Home() {
             </div>
             <div className="testimonial-item">
               <div className="testimonial-content">
-                <p>"맞춤 제작 서비스는 정말 특별했습니다. 제 아이디어를 완벽하게 구현해 주셨고, 결과물은 기대 이상이었습니다."</p>
+                <p>&ldquo;맞춤 제작 서비스는 정말 특별했습니다. 제 아이디어를 완벽하게 구현해 주셨고, 결과물은 기대 이상이었습니다.&rdquo;</p>
                 <div className="testimonial-author">
                   <h4>이서연</h4>
                   <p>디자이너</p>
@@ -400,7 +400,7 @@ export default function Home() {
             </div>
             <div className="testimonial-item">
               <div className="testimonial-content">
-                <p>"VIP 서비스는 럭셔리의 새로운 기준을 제시합니다. 세심한 배려와 전문적인 조언으로 완벽한 구매 경험을 선사했습니다."</p>
+                <p>&ldquo;VIP 서비스는 럭셔리의 새로운 기준을 제시합니다. 세심한 배려와 전문적인 조언으로 완벽한 구매 경험을 선사했습니다.&rdquo;</p>
                 <div className="testimonial-author">
                   <h4>박민지</h4>
                   <p>기업 CEO</p>

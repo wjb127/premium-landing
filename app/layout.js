@@ -1,8 +1,7 @@
-import { Inter, Cormorant_Garamond, Noto_Sans_KR } from 'next/font/google';
+import { Cormorant_Garamond, Noto_Sans_KR } from 'next/font/google';
 import Script from 'next/script';
 
 // 폰트 설정
-const inter = Inter({ subsets: ['latin'] });
 const cormorant = Cormorant_Garamond({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
