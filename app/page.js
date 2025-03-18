@@ -382,7 +382,7 @@ export default function Home() {
           <div className="testimonial-slider">
             <div className="testimonial-item active">
               <div className="testimonial-content">
-                <p>"LUXE의 제품은 단순한 소유물이 아닌 예술 작품입니다. 세심한 디테일과 완벽한 마감은 다른 브랜드와 차원이 다릅니다."</p>
+                <p>&ldquo;LUXE의 제품은 단순한 소유물이 아닌 예술 작품입니다. 세심한 디테일과 완벽한 마감은 다른 브랜드와 차원이 다릅니다.&rdquo;</p>
                 <div className="testimonial-author">
                   <h4>김준호</h4>
                   <p>컬렉터</p>
