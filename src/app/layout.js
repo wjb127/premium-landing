@@ -1,5 +1,6 @@
 import { Cormorant_Garamond, Noto_Sans_KR } from 'next/font/google';
 import Script from 'next/script';
+import './globals.css';
 
 // 폰트 설정
 const cormorant = Cormorant_Garamond({
@@ -20,8 +21,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ko" className={`${cormorant.variable} ${notoSansKr.variable}`}>
+    <html lang="ko" className={`${cormorant.variable} ${notoSansKr.variable}`} suppressHydrationWarning>
       <head>
+        {/* 번역 방지 메타 태그 */}
+        <meta name="google" content="notranslate" />
+        
         {/* Font Awesome은 Script 컴포넌트로 로드 */}
         <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
